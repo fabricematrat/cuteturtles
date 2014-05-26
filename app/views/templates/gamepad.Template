@@ -1,0 +1,4 @@
+            <button class="yui3-button" id="up">up</button>
+            <button class="yui3-button" id="down">down</button>
+            <button class="yui3-button" id="right">right</button>
+            <button class="yui3-button" id="left">left</button>

@@ -1,0 +1,5 @@
+<div class="blockCanvas">
+    <canvas id="canvasGrid" width="1000" height="1000"></canvas>
+    <canvas id="canvasWalls" width="1000" height="1000"></canvas>
+    <canvas id="canvasTurtles" width="1000" height="1000"></canvas>
+</div>

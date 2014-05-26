@@ -1,0 +1,47 @@
+{
+  "name": "cuteturtles",
+  "version": "0.0.1",
+  "description": "A little multi player game game where you have to find your partner for a lovely kiss",
+  "keywords": [
+    "game"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabricematrat/cuteturtles"
+  },
+  "bugs": "https://github.com/fabricematrat/cuteturtles/issues",
+  "maintainers": [
+    {
+      "name": "Fabrice Matrat",
+      "web": "http://fabricematrat.github.io"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fabrice Matrat",
+      "web": "http://fabricematrat.github.io"
+    }
+  ],
+  "dependencies": {
+    "yui": "~3"
+  },
+  "devDependencies": {
+    "buster": "~0.7",
+    "jshint": "~2",
+    "express": "~3",
+    "socket.io"   : "0.9.6"
+  },
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jshint . && buster-test -e node"
+  }
+}

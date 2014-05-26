@@ -1,0 +1,50 @@
+body {
+    margin: auto; /* center in viewport */
+    width: 1200px;
+}
+
+
+/* =====================================================================================================================
+* Turtle canvas
+===================================================================================================================== */
+canvas {
+    display: block;
+    margin: 0 9.5rem;
+    max-height: 42.5em;
+    max-width: 42.5em;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#canvasGrid {
+    z-index: 1;
+}
+
+#canvasWalls {
+    z-index: 2;
+}
+
+#canvasTurtles {
+    z-index: 3;
+}
+
+.center-wrapper {
+    text-align: center;
+}
+
+.center-wrapper * {
+    margin: 0 auto;
+}
+
+/* =====================================================================================================================
+* Turtle canvas
+===================================================================================================================== */
+
+.pad-control {
+    position: fixed;
+    right: 5em;
+    bottom: 5em;
+    z-index: 5;
+}
+
