@@ -30,7 +30,7 @@ Some data like player's name are stored on your browser local storage.
 * Open 2 different browsers with : http://localhost:8080
 
 ### What's left
-* TODO is the code
+* TODO in the code
 * Extract router code in a real router class
 * Extract config in a separate file
 * Discover why I need to put transitive dependencies in my YUI.use
