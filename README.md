@@ -38,5 +38,7 @@ Some data like player's name are stored on your browser local storage.
 * Fix bugs
 * Write more tests
 * Simplify the code
+* Use namespace
+* Many more ...
 
 
